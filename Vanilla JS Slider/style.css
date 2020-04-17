@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+    width: 100%;
+}
+
+ul li img {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
