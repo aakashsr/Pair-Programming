@@ -12,3 +12,19 @@ ul li img {
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.fade {
+    animation-name: fade-image;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade-image {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
