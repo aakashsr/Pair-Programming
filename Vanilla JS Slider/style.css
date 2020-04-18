@@ -25,6 +25,7 @@ ul li img {
     transform: translateY(-50%);
     border: none;
     background: transparent;
+    outline: none;
 }
 
 .btn-right {
