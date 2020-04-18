@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 ul {
     list-style: none;
     width: 100%;
@@ -12,6 +16,33 @@ ul li img {
     padding: 0;
     box-sizing: border-box;
 }
+
+.btn-right,
+.btn-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+}
+
+.btn-right {
+    right: 2%;
+}
+
+.btn-left {
+    left: 2%;
+}
+
+.btn-right img,
+.btn-left img {
+    width: 40px;
+    opacity: .8;
+}
+
+
+
+.btn-right img {}
 
 
 .fade {
