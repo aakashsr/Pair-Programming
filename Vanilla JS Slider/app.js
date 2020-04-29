@@ -3,8 +3,8 @@ var current = 0;
 
 console.log(lists);
 
-hide(lists);
-displayFirst(lists);
+hide(lists); // Initially hide all the images
+displayFirst(lists); // Display only first images
 
 function hide(lists) {
   lists.forEach(function (cur) {

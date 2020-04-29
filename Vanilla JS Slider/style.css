@@ -43,10 +43,6 @@ ul li img {
 }
 
 
-
-.btn-right img {}
-
-
 .fade {
     animation-name: fade-image;
     animation-duration: 1.5s;
